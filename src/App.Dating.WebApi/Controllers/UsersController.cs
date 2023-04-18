@@ -5,9 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace App.Dating.WebApi.Controllers;
 
-[ApiController]
-[Route("api/[controller]")]
-public class UsersController : ControllerBase
+public class UsersController : BaseApiController
 {
     private readonly DataDbContext dataDbContext;
 
